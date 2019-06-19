@@ -2,12 +2,13 @@
 body{
     margin: 0;
     font-family: 'Quattrocento', serif;
+	background: #F9F1D6;
 }
 
 /*o nosso h1 serve unicamente para o título do site, nele definimos o tamanho do texto e a família da fonte bem como sua classificação para ajudar o browser caso ele não possua a fonte escolhida e precise escolher uma fonte default */
 h1{
     font-size: 48pt;
-    font-family: 'Playball', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 h2, h3{
@@ -16,26 +17,28 @@ h2, h3{
 }
 
 p{
+	text-indent: 5%;
     font-size: 12pt;
-    font-family: 'Quattrocento', serif;
-    
+	font-family: 'Montserrat', sans-serif;    
 }
 
     
 
 nav{
-    background-color: #dd496e;
+    background-color: #82707C;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+	
 }   
 nav ul{
     list-style:none;
     display: inline-flex;
+	
     /* .navbar indica a classe que gera a barra de navegação no topo do site */
 }
 nav ul li{
-    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto';
     /* .nav li diz respeito aos itens da nossa barra de navegação, onde cada um deles é um item de uma lista não ordenada <ul>.*/
 }
 nav ul li a{
@@ -46,15 +49,18 @@ nav ul li a{
 nav ul li a:hover{
     background-color: rgba(0,0,0,0.1) ;
 }
-.logo{
+
+
+.logo img{
     float: left;
     width: 50px;
 }
 
 header{
+	
     text-align: center;
     margin: auto;
-    height: 450px;
+    height: 750px;
     overflow: hidden;
 }
 
@@ -63,7 +69,7 @@ header img{
 }
 
 content p{
-    padding-top: 30px;
+	padding-top: 30px;
     margin: auto;
     width: 90%;
     text-align: justify;
@@ -76,7 +82,8 @@ content p{
 
 .card {
     margin: 10px;
-    padding: 10px;
+    margin-top: 250px;
+    /* padding: 10px; */
     width: 33%;
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -90,13 +97,14 @@ content p{
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding: 2px 16px 27px;
   }
 
 footer{
+	text-align: center;
     margin-top: 100px;
     color: #ffffff;
-    background-color: #2a2d34;
+    background-color: #82707C;
 }
 footer ul{
     list-style:none;
@@ -105,6 +113,8 @@ footer ul{
 }
 footer ul li{
     padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	
 }
 footer a{
     text-decoration: none;
